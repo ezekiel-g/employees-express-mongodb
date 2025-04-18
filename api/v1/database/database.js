@@ -3,4 +3,4 @@ import mongoose from 'mongoose'
 
 dotenv.config()
 
-export default mongoose.connect(process.env.URI)
+export default mongoose.connect(process.env.DB_URI)
