@@ -1,5 +1,5 @@
-const Employee = require('../models/Employee')
-const Department = require('../models/Department')
+import Employee from '../models/Employee.js'
+import Department from '../models/Department.js'
 
 const validateDepartment = async department => {
     const existingDepartment = await Department.findById(department)
@@ -153,7 +153,7 @@ const deleteEmployee = async (request, response) => {
     }
 }
 
-module.exports = {
+export default {
     getEmployees,
     getEmployee,
     addEmployee,

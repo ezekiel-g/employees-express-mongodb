@@ -1,4 +1,4 @@
-const Department = require('../models/Department')
+import Department from '../models/Department.js'
 
 const handleError = (response, error) => {
     let statusCode = 500
@@ -113,7 +113,7 @@ const deleteDepartment = async (request, response) => {
     }
 }
 
-module.exports = {
+export default {
     getDepartments,
     getDepartment,
     addDepartment,

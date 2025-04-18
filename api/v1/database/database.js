@@ -1,3 +1,3 @@
-const mongoose = require('mongoose')
+import mongoose from 'mongoose'
 
-module.exports = mongoose.connect(process.env.URI)
+export default mongoose.connect(process.env.URI)

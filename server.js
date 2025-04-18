@@ -1,8 +1,10 @@
-require('dotenv').config()
-const express = require('express')
-const dbConnection = require('./api/v1/database/database')
-const departmentRoutes = require('./api/v1/routes/departmentRoutes')
-const employeeRoutes = require('./api/v1/routes/employeeRoutes')
+import dotenv from 'dotenv'
+import express from 'express'
+import dbConnection from './api/v1/database/database.js'
+import departmentRoutes from './api/v1/routes/departmentRoutes.js'
+import employeeRoutes from './api/v1/routes/employeeRoutes.js'
+
+dotenv.config()
 
 const app = express()
 const port = process.env.PORT || 3000
