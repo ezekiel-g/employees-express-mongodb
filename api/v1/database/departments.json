@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Sales",
+        "code": "SLS01",
+        "location": "New York",
+        "isActive": true
+    },
+    {
+        "name": "Marketing",
+        "code": "MKT01",
+        "location": "New York",
+        "isActive": true
+    },
+    {
+        "name": "Engineering",
+        "code": "ENG01",
+        "location": "London",
+        "isActive": true
+    },
+    {
+        "name": "HR",
+        "code": "HR01",
+        "location": "San Francisco",
+        "isActive": true
+    }
+]
